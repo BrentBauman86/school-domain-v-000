@@ -15,6 +15,13 @@ if @roster.include?(grade) == false
   end
 @roster[grade] << name
 end
+<<<<<<< HEAD
+=======
+
+def grade(kids_grade)
+  @roster[kids_grade]
+ end
+>>>>>>> d47245ddd313a860dc2b5f0b9f8d5048c75bf36f
 
 def grade(kids_grade)
   @roster[kids_grade]
